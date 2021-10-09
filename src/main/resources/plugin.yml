@@ -1,0 +1,16 @@
+name: SocialLinks
+main: me.electrum.social.Main
+version: 1.0
+author: Electrum
+commands:
+  discord:
+    usage: /<discord>
+    description: discord
+  instagram:
+    instagram:
+      usage: /<instagram>
+      description: instagram
+  twitter:
+    discord:
+      usage: /<twitter>
+      description: twitter
