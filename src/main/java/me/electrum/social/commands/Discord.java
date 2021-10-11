@@ -16,6 +16,7 @@ public class Discord extends Command {
     public String convertColor(String in) {
         return in.replace("&", "§");
     }
+
     @Override
     public void execute(CommandSender sender, String[] args) {
         TextComponent message = new TextComponent(convertColor("&a&lTwist&5&lMC &f&l-> &9&lDiscord"));

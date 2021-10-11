@@ -15,6 +15,6 @@ public class Main extends Plugin {
         ProxyServer.getInstance().getPluginManager().registerCommand(this, new Discord("discord".toLowerCase(Locale.ROOT)));
         ProxyServer.getInstance().getPluginManager().registerCommand(this, new Instagram("instagram".toLowerCase(Locale.ROOT)));
         ProxyServer.getInstance().getPluginManager().registerCommand(this, new Twitter("twitter".toLowerCase(Locale.ROOT)));
-
+        getLogger().info("SocialLinks v1.0 by Electrum has loaded");
     }
 }
