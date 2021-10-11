@@ -22,5 +22,6 @@ public class Instagram extends Command {
         message.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://www.instagram.com/twistbedwars"));
         message.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new Text(convertColor("&e&lClick Here to Follow Our Instagram!"))));
         sender.sendMessage(message);
+
     }
 }

@@ -21,5 +21,7 @@ public class Twitter extends Command {
         TextComponent message = new TextComponent(convertColor("&a&lTwist&5&lMC &f&l-> &b&lTwitter"));
         message.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://twitter.com/twistbedwars"));
         message.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new Text(convertColor("&b&lClick Here to Follow Our Twitter!"))));
-        sender.sendMessage(message);    }
+        sender.sendMessage(message);
+        
+    }
 }

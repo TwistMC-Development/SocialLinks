@@ -23,5 +23,6 @@ public class Discord extends Command {
         message.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://discord.com/invite/twistmc"));
         message.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new Text(convertColor("&9&lClick Here to Join Our Discord!"))));
         sender.sendMessage(message);
+
     }
 }
